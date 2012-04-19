@@ -9,11 +9,11 @@ class hiera {
   }
 
   package { 'cegeka-hiera':
-    ensure   => installed,
+    ensure   => present,
   }
 
   package { 'cegeka-hiera-puppet':
-    ensure   => installed,
+    ensure   => present,
     require  => Package['cegeka-hiera']
   }
 
