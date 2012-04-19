@@ -7,11 +7,11 @@ describe 'hiera' do
   it { should contain_class 'hiera' }
 
   it {
-    should contain_package('cegeka-hiera').with_ensure('present')
+    should contain_package('rubygems-hiera').with_ensure('present')
   }
   
   it {
-    should contain_package('cegeka-hiera-puppet').with_ensure('present')
+    should contain_package('rubygems-hiera-puppet').with_ensure('present')
   }
 
   it {

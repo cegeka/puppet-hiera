@@ -8,13 +8,13 @@ class hiera {
     source => "puppet:///modules/${module_name}/hiera.yaml",
   }
 
-  package { 'cegeka-hiera':
+  package { 'rubygems-hiera':
     ensure   => present,
   }
 
-  package { 'cegeka-hiera-puppet':
+  package { 'rubygems-hiera-puppet':
     ensure   => present,
-    require  => Package['cegeka-hiera']
+    require  => Package['rubygems-hiera']
   }
 
 }
