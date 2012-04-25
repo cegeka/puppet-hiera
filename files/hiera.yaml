@@ -1,0 +1,9 @@
+---
+:backends: puppet
+:hierarchy: - %{hostname}
+            - %{environment}
+            - %{customer}
+            - common
+
+:puppet:
+    :datasource: - data
