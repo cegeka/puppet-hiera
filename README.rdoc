@@ -1,4 +1,6 @@
 = puppet-hiera module
 
+{<img src='https://codex.cegeka.be/jenkins/job/puppet-hiera/badge/icon' />}[https://codex.cegeka.be/jenkins/job/puppet-hiera/]
+
 This is the hiera module, used for installing hiera and hiera-puppet with the config file.
 
